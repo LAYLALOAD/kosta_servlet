@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/pcontrol")
+//@WebServlet("/pcontrol")
 public class ProductController extends HttpServlet {
   ProductService service;
   public ProductController() {
